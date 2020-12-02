@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vendor/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/fontawesome/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app" class="container">
+        <div class="row bg-dark mb-4 p-3 text-light">
+            <i class="fa fa-plus fa-lg m-3" ></i>
+            <i class="fa fa-arrow-up fa-lg text-light m-3"  ></i>
+            <i class="fa fa-arrow-down fa-lg text-light m-3"></i>
+            <input type="color" name="" id="inputcolor" class="m-3">
+            <button class="btn btn-info m-3">apply</button>
+            <i class="fa fa-bell m-3" ></i>
+            <i class="m-3 gras" >G</i>
+            <i class="m-3 italic" >I</i>
+            <i class="m-3 souligner" >S</i>
+            <input type="range" name="" id="border-raduis">
+            <button class="btn btn-info m-3 getcode">Get Code</button>
+        </div>
+        <div class="row">
+            <textarea name="" id="" cols="10" rows="10" v-model="txt" :class="txtclass"></textarea>
+        </div>
+        <div class="row code">
+
+        </div>
+        
+    </div>
+</body>
+<script src="js/main.js"></script>
+</html>
